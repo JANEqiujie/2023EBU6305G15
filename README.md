@@ -10,4 +10,4 @@ This web site provide information about Zhuhai city which located in the souther
   
   Dantong Xu 2020213119, 200979117, 2020213119@bupt.edu.cn, group member.
 
-v1 and v2 is our working directory
+v1 and v2 are our working directories which represent different versions.
