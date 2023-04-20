@@ -187,7 +187,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #3f81b3 url(https: //github .com/JANEqiujie/ 2023EBU 6305G 15px /raw/main/xdtimgs/fushan.png) no-repeat center;
+  background: #3f81b3 url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/fushan.png) no-repeat center;
   background-size: cover;
   overflow: hidden;
   z-index: 0;
@@ -347,7 +347,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   height: 570vh;
-  background: #3f81b3 url(https: //github .com/JANEqiujie/ 2023EBU 6305G 15px /raw/main/xdtimgs/tech.jpeg) no-repeat center;
+  background: #3f81b3 url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/tech.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
