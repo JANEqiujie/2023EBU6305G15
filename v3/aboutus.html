@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta  charset="utf-8">
+    <style>
+
+        .aboutUs{
+            background-image: url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/flower1.png);
+            background-size: cover;
+            width:100%;
+            height: 800px;
+            left:0;
+            margin:0;
+            position:relative;
+            cursor:default;
+            display:flex;
+            padding:0;
+        }
+
+        .footer{
+            background-image:url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/flower3.png);
+            background-size: cover;
+            width:100%;
+            height: 600px;
+            left:0;
+            margin:0;
+            position:relative;
+            cursor:default;
+            display:flex;
+            padding:0;
+        }
+
+        .guide{
+            width:60%;
+            height: 350px;
+            top:13%;
+            left:38%;
+            margin:0;
+            /* background-color:cadetblue; */
+            position:absolute;
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+
+        .col{
+            display:flex;
+            flex-direction: column;
+            padding-top:3%;
+            width:25%;
+            height:100%;
+            justify-content:space-between;
+            align-items: center;
+        }
+
+        .smallText{
+            color:white;
+            font-size:13px;
+            text-decoration: underline;
+            
+        }
+        .bigText{
+            color:white;
+            font-size:20px;
+            flex-basis:15%;
+        }
+        a:visited{
+            color:lightsteelblue;
+            text-decoration: underline;
+        }
+        a:hover{
+            cursor:pointer;
+        }
+        
+        .book{
+            background-image: url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/homeimg/first_big_item.jpg);
+            background-size: cover;
+            width:100%;
+            height: 100vh;
+            left:0;
+            margin:0;
+            position:relative;
+            cursor:default;
+            display:flex;
+            padding:0;
+
+        }
+        #icon{
+            background-image: url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/footer-smile.png);
+            width:200px;
+        height:200px;
+        top:48%;
+        left:15%;
+        position:absolute;
+        background-size:contain;
+        }
+
+        #footersign{
+            background-image: url(https://raw.githubusercontent.com/JANEqiujie/2023EBU6305G15/main/xdtimages/sign.png);
+            width:600px;
+            height:250px;
+            position:absolute;
+            top:8%;
+            left:-30px;
+            background-size:cover;
+
+        }
+        #zhuhai{
+            
+            font-size: 300px;
+            color:white;
+            opacity: 0.5;
+            font-family: sans-serif;
+        }
+
+
+      
+
+        .AUtitle{
+            color:rgb(20,64,117);
+            top:0;
+            left:3%;
+            position:absolute;
+            font-size:80px;
+        }
+
+        #AUContent{
+            color:rgb(20,64,117);
+            margin-top:20%;
+            margin-left:30%;
+            width:60%;
+            height:60%;
+            font-size: 40px;
+            font-weight: 500;
+            position:absolute;
+            border: none;
+            word-wrap:break-word;
+        }
+    </style>
+</head>
+
+<body style = "margin: 0" >
+    <div class = "book">
+        <p id ="zhuhai">
+            Zhu Hai
+        </p>
+
+    </div>
+    <div class = "aboutUs">
+        <h1 class = "AUtitle" data-move-y="200px">
+            About Us
+        </h1>
+        <p id = "AUContent" data-move-y="200px">
+            We are a group of junior students from Beijing University of Posts and Telecommunications and Queen Mary University joint project Telecommunication Engineering and Management. If you want to contact us, please send email to jp2020213117@qmul.ac.uk .
+        </p>
+    </div>
+    <div class = "footer">
+        <div id = "footersign" data-scale="0.2" data-skew="90deg,90deg"></div>
+        <div id = "icon" data-scale="0.2" data-skew="90deg,90deg"></div>
+
+        <div class = "guide" >
+        <div id = "col1" class = "col" >
+        <a id = "overall" class ="bigText">OVERALL</a>
+        <a id = "introduction" class = "smallText" href="homepage.html" target: _blank;>Introduction</a>
+        <a id = "map" class = "smallText" href="">Map</a>
+        <a id = "news" class = "smallText" href = "homepage.html"  target = "_blank">
+            News</a>
+        <a id = "weather" class = "smallText" href = "https://weathernew.pae.baidu.com/weathernew/pc?query=%E5%B9%BF%E4%B8%9C%E7%8F%A0%E6%B5%B7%E5%A4%A9%E6%B0%94&srcid=4982&forecast=long_day_forecast"  target = "_blank">
+            Weather</a>
+        <a id = "policy" class = "smallText" href = "http://www.zhuhai.gov.cn/zw/fggw/zcjd/"  target = "_blank">Policy</a>
+        </div>
+
+        <div  id = "col2" class = "col" >
+            <a id = "travel" class="bigText">TRAVEL</a>
+            <a id = "landmark" class = "smallText" href="travel_attraction.html" target="_blank">Land Mark</a>
+            <a id = "food" class = "smallText" href="travel_food.html" target="_blank">Food</a>
+            <a id = "culture" class = "smallText" target="_blank">Culture</a>
+            <a id = "touristguide" class = "smallText" href="travel_redbook.html" target="_blank">Tourist Guide</a>
+            <a class = "smallText"></a>        
+        </div>
+
+        <div  id = "col3" class = "col" >
+            <a id = "business" class="bigText">BUSINESS</a>
+            <a id = "potential" class="smallText" href="businesses_potenial.html"target="_blank">Potential</a>
+            <a id = "pillarindurstry" class = "smallText" href="business-pillarindustry.html" target="_blank">Pillar Indurstry</a>
+            <a id = "businesspolicy" class = "smallText" href="business_policy.html" target="_blank">Business Policy</a>
+            <a id = "location" class = "smallText" href="business_location.html" target="_blank">Location</a>
+            <a class = "smallText"></a>
+            <a class = "smallText"></a>        
+        </div>
+
+        <div  id = "col4" class = "col" >
+            <a id = "opportunity" class="bigText">OPPORTUNITY</a>
+            <a id = "industry" class="smallText" href="Industry.html" target="_blank">Industry</a>
+            <a id = "livingcost" class = "smallText" href="cost.html" target="_blank">Living Cost</a>
+            <a id = "culturaldiversity" class = "smallText" href="opportunity-culture.html">Cultural Diversity</a>
+            <a id = "lifepolicy" class = "smallText" href = "opportunity-policy.html" target = "_blank">Life Policy</a>
+            <a id = "environment" class = "smallText" href="opportunity-environment.html" target="_blank">Environment</a>
+            <a id = "education" class = "smallText" href=""></a> 
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        !function(a,b,c){a.fn.smoove=function(b){return a.fn.smoove.init(this,a.extend({},a.fn.smoove.defaults,b)),this},a.fn.smoove.items=[],a.fn.smoove.loaded=!1,a.fn.smoove.defaults={offset:150,opacity:0,transition:"all 1s ease, opacity 1.5s ease",transformStyle:"preserve-3d",transformOrigin:!1,perspective:1e3},a.fn.smoove.init=function(d,e){function f(a,b,c){function d(a){return a.charAt(0).toUpperCase()+a.slice(1)}for(var e=["webkit","moz","ms","o"],f={},g=0;g<e.length;g++)c&&(b=b.replace(c,"-"+e[g]+"-"+c)),f[d(e[g])+d(a)]=b;return f[a]=b,f}function g(c){for(var d=0;d<a.fn.smoove.items.length;d++){var e=a.fn.smoove.items[d],g=e.params,h=a(b).height(),i=!c||"down"===c&&"1"===e.css("opacity")?0:g.offset,j=a(b).scrollTop()+h-e.data("top");if("string"==typeof i&&i.indexOf("%")&&(i=parseInt(i)/100*h),i>j){g.opacity!==!1&&e.css({opacity:g.opacity});for(var k=[],l=["move","move3D","moveX","moveY","moveZ","rotate","rotate3d","rotateX","rotateY","rotateZ","scale","scale3d","scaleX","scaleY","skew","skewX","skewY"],m=0;m<l.length;m++)"undefined"!=typeof g[l[m]]&&(k[l[m]]=g[l[m]]);var n="";for(var o in k)n+=o.replace("move","translate")+"("+k[o]+") ";n&&(e.css(f("transform",n)),e.parent().css(f("perspective",g.perspective)),g.transformOrigin&&e.css(f("transformOrigin",g.transformOrigin)))}else e.css("opacity",1).css(f("transform",""))}}if(d.each(function(){var b=a(this),c=b.params=a.extend({},e,b.data());b.params.opacity=b.params.opacity/100,b.data("top",b.offset().top),c.transition=f("transition",c.transition,"transform"),b.css(c.transition),a.fn.smoove.items.push(b)}),!a.fn.smoove.loaded){a.fn.smoove.loaded=!0;var h,i=!1,j=0,k=a(b).height(),l=a(b).width(),m=a(c).height();a("body").width()===a(b).width()&&a("body").css("overflow-x","hidden"),a(b).resize(function(){clearTimeout(h),h=setTimeout(function(){var d=a(b).height(),e=a(b).width(),h=k>d?h="up":"down",i=a.fn.smoove.items;if(k=d,l!==e){for(var j=0;j<i.length;j++)i[j].css(f("transform","")).css(f("transition",""));var n=setInterval(function(){var d=a(c).height();if(d===m){b.clearInterval(n);for(var e=0;e<i.length;e++)i[e].data("top",i[e].offset().top),i[e].css(i[e].params.transition);g(h)}m=d},500)}else g(h);l=e},500)}),a(b).on("load",function(){g(),a(b).scroll(function(){i=!0}),setInterval(function(){if(i){i=!1;var c=a(b).scrollTop(),d=j>c?d="up":"down";j=c,g(d)}},250)})}}}(jQuery,window,document);
+         
+        </script>
+    <script>
+     $(".AUtitle, #AUContent, #footersign,  #icon").smoove({offset:'40%'});
+    //  $('#AUContent').smoove({offset:'40%'});</script>
+    
+</body>
+</html>
