@@ -31,9 +31,10 @@ ul.breadcrumb>li>a{
 /*以上为面包屑*/
 ul.breadcrumb>li>ul {
   position:absolute;
-  left:108px;
+  left: 165px;
   Top: 30px;
   display:none;
+  background: rgba(1, 12, 21, 0.413);
 }
 ul.breadcrumb>li>ul>li{
   float:none;
@@ -42,11 +43,13 @@ ul.breadcrumb>li>ul>li{
   left:105px;
   height: 23px; 
   width:50px;
+  background: rgba(1, 12, 21, 0.413);
 }
 ul.breadcrumb>li>ul>li>a{
   border:1px;
   border-color: #585858;
   color:#f5f5f5;
+  background: rgba(1, 12, 21, 0.413);
 }
 ul.breadcrumb >li:hover >ul{
   display:block;
